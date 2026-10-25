@@ -40,7 +40,7 @@ const fikraChatModels: AIChatModelCard[] = [
     type: 'chat',
   },
   {
-    abilities: { functionCall: true },
+    abilities: { functionCall: true, reasoning: true, structuredOutput: true },
     contextWindowTokens: 1048576,
     description: "Zhipu flagship GLM-5.3 for complex software engineering and long-horizon agent tasks on a 1M context.",
     displayName: "GLM 5.3",
@@ -52,7 +52,7 @@ const fikraChatModels: AIChatModelCard[] = [
     type: 'chat',
   },
   {
-    abilities: { functionCall: true },
+    abilities: { functionCall: true, reasoning: true, structuredOutput: true, video: true, vision: true },
     contextWindowTokens: 327680,
     description: "Zhipu GLM-5.3 Flash for high-volume chat and tool use at a low price point.",
     displayName: "GLM 5.3 Flash",
@@ -64,7 +64,7 @@ const fikraChatModels: AIChatModelCard[] = [
     type: 'chat',
   },
   {
-    abilities: { functionCall: true },
+    abilities: { functionCall: true, reasoning: true, structuredOutput: true },
     contextWindowTokens: 1048576,
     description: "Zhipu GLM-5.2 for coding and reasoning work at a lower price than GLM 5.3, on a 1M context.",
     displayName: "GLM 5.2",
@@ -88,7 +88,7 @@ const fikraChatModels: AIChatModelCard[] = [
     type: 'chat',
   },
   {
-    abilities: { functionCall: true },
+    abilities: { functionCall: true, reasoning: true, structuredOutput: true, video: true, vision: true },
     contextWindowTokens: 1048576,
     description: "StepFun Step 5 preview route: expect repetition loops and very high latency on long prompts; included for early evaluation.",
     displayName: "Step 5 Preview",
@@ -112,7 +112,7 @@ const fikraChatModels: AIChatModelCard[] = [
     type: 'chat',
   },
   {
-    abilities: { functionCall: true, vision: true },
+    abilities: { functionCall: true, reasoning: true, structuredOutput: true, video: true, vision: true },
     contextWindowTokens: 1048576,
     description: "Xiaomi MiMo-V2.6-Pro for vision and reasoning tasks on a 1M context.",
     displayName: "MiMo V2.6 Pro",
